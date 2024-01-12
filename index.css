@@ -1,0 +1,20 @@
+@font-face {
+    font-family: GameFont;
+    src: url(./fonts/PressStart2P.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: GameFont;
+    color: white;
+}
+
+.all {
+    width: 100vw;
+    height: 100vh;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+}
