@@ -11,26 +11,40 @@
 
 <body>
     <div class="all" id="all">
-        <div class="gameText" id="gameText">
-            <h1>You are inside a brimstone mine</h1>
-        </div>
-        <div class="gameImage" id="gameImage">
-            <img src="./img/11.gif" alt="Img" style="background-color: rgb(235,211,64);">
-        </div>
-        <div class="gameDirection" id="gameDirection">
-            <h1>You can go EAST</h1>
-        </div>
-        <div class="gameObjects" id="gameObjects">
-            <h1>You see nothing</h1>
-        </div>
-        <div class="gameCarry" id="gameCarry">
-            <h1>You are carrying nothing</h1>
-        </div>
-        <div class="gameInput" id="gameInput">
-            <h1>What now?</h1>
-            <input type="text" name="input" id="input">
+        <div class="game" id="game">
+            <div class="gameText" id="gameText">
+                <h1>You are inside a brimstone mine</h1>
+            </div>
+            <div class="gameImage" id="gameImage">
+                <img src="./img/11.gif" class="imgGame" alt="Img" style="background-color: rgb(235,211,64);">
+                <div class="compassDiv" id="compassDiv">
+                    <div class="northBlock" id="northBlock"></div>
+                    <div class="southBlock" id="southBlock"></div>
+                    <div class="westBlock" id="westBlock"></div>
+                    <div class="eastBlock" id="eastBlock"></div>
+                    <img src="./img/compass.png" class="imgCompass" alt="Compass">
+                </div>
+            </div>
+            <div class="gameDirection" id="gameDirection">
+                <h1>You can go EAST</h1>
+            </div>
+            <div class="gameObjects" id="gameObjects">
+                <h1>You see nothing</h1>
+            </div>
+            <div class="gameCarry" id="gameCarry">
+                <h1>You are carrying nothing</h1>
+            </div>
+            <div class="gameInput" id="gameInput">
+                <h1>What now?</h1>
+                <input type="text" name="input" id="input" autofocus>
+            </div>
         </div>
     </div>
+    <script>
+        window.onclick = function () {
+            document.getElementById('input').focus()
+        }
+    </script>
 </body>
 
 </html>
