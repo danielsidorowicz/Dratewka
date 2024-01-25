@@ -1,0 +1,384 @@
+{
+    "map": [
+        {
+            "id": 11,
+            "text": "You are inside a brimstone mine",
+            "imgSrc": "11.gif",
+            "bgColor": "rgb(235,211,64)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 12,
+            "text": "You are at the entrance to the mine",
+            "imgSrc": "12.gif",
+            "bgColor": "rgb(89,93,87)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 13,
+            "text": "A hill",
+            "imgSrc": "13.gif",
+            "bgColor": "rgb(117,237,243)",
+            "directions": [
+                "W",
+                "S",
+                "E"
+            ]
+        },
+        {
+            "id": 14,
+            "text": "Some bushes",
+            "imgSrc": "14.gif",
+            "bgColor": "rgb(202,230,51)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 15,
+            "text": "An old deserted hut",
+            "imgSrc": "15.gif",
+            "bgColor": "rgb(220,204,61)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 16,
+            "text": "The edge of a forest",
+            "imgSrc": "16.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 17,
+            "text": "A dark forest",
+            "imgSrc": "17.gif",
+            "bgColor": "rgb(140,253,99)",
+            "directions": [
+                "W",
+                "S"
+            ]
+        },
+        {
+            "id": 21,
+            "text": "A man nearby making tar",
+            "imgSrc": "21.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "S",
+                "E"
+            ]
+        },
+        {
+            "id": 22,
+            "text": "A timber yard.",
+            "imgSrc": "22.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "S",
+                "E"
+            ]
+        },
+        {
+            "id": 23,
+            "text": "You are by a roadside shrine",
+            "imgSrc": "23.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "S",
+                "E",
+                "N"
+            ]
+        },
+        {
+            "id": 24,
+            "text": "You are by a small chapel",
+            "imgSrc": "24.gif",
+            "bgColor": "rgb(212,229,36)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 25,
+            "text": "You are on a road leading to a wood",
+            "imgSrc": "25.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "S",
+                "E"
+            ]
+        },
+        {
+            "id": 26,
+            "text": "You are in a forest",
+            "imgSrc": "26.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 27,
+            "text": "You are in a deep forest",
+            "imgSrc": "27.gif",
+            "bgColor": "rgb(140,253,99)",
+            "directions": [
+                "W",
+                "N"
+            ]
+        },
+        {
+            "id": 31,
+            "text": "You are by the Vistula River",
+            "imgSrc": "31.gif",
+            "bgColor": "rgb(122,232,252)",
+            "directions": [
+                "N",
+                "E"
+            ]
+        },
+        {
+            "id": 32,
+            "text": "You are by the Vistula River",
+            "imgSrc": "32.gif",
+            "bgColor": "rgb(140,214,255)",
+            "directions": [
+                "W",
+                "N"
+            ]
+        },
+        {
+            "id": 33,
+            "text": "You are on a bridge over river",
+            "imgSrc": "33.gif",
+            "bgColor": "rgb(108,181,242)",
+            "directions": [
+                "N",
+                "S"
+            ]
+        },
+        {
+            "id": 34,
+            "text": "You are by the old tavern",
+            "imgSrc": "34.gif",
+            "bgColor": "rgb(255,189,117)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 35,
+            "text": "You are at the town's end",
+            "imgSrc": "35.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "S",
+                "N"
+            ]
+        },
+        {
+            "id": 36,
+            "text": "You are in a butcher's shop",
+            "imgSrc": "36.gif",
+            "bgColor": "rgb(255,188,102)",
+            "directions": [
+                "S"
+            ]
+        },
+        {
+            "id": 37,
+            "text": "You are in a cooper's house",
+            "imgSrc": "37.gif",
+            "bgColor": "rgb(255,188,102)",
+            "directions": [
+                "S"
+            ]
+        },
+        {
+            "id": 41,
+            "text": "You are in the Wawel Castle",
+            "imgSrc": "41.gif",
+            "bgColor": "rgb(255,176,141)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 42,
+            "text": "You are inside a dragon's cave",
+            "imgSrc": "42.gif",
+            "bgColor": "rgb(198,205,193)",
+            "directions": [
+                "W",
+                "E"
+            ]
+        },
+        {
+            "id": 43,
+            "text": "A perfect place to set a trap",
+            "imgSrc": "43.gif",
+            "bgColor": "rgb(255,176,141)",
+            "directions": [
+                "W",
+                "N"
+            ]
+        },
+        {
+            "id": 44,
+            "text": "You are by the water mill",
+            "imgSrc": "44.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 45,
+            "text": "You are at a main crossroad",
+            "imgSrc": "45.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "S",
+                "E",
+                "N"
+            ]
+        },
+        {
+            "id": 46,
+            "text": "You are on a town street",
+            "imgSrc": "46.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "E",
+                "N"
+            ]
+        },
+        {
+            "id": 47,
+            "text": "You are in a frontyard of your house",
+            "imgSrc": "47.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "S",
+                "N"
+            ]
+        },
+        {
+            "id": 51
+        },
+        {
+            "id": 52
+        },
+        {
+            "id": 53
+        },
+        {
+            "id": 54,
+            "text": "You are by a swift stream",
+            "imgSrc": "54.gif",
+            "bgColor": "rgb(108,181,242)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 55,
+            "text": "You are on a street leading forest",
+            "imgSrc": "55.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "W",
+                "S",
+                "N"
+            ]
+        },
+        {
+            "id": 56,
+            "text": "You are in a woodcutter's backyard",
+            "imgSrc": "56.gif",
+            "bgColor": "rgb(255,190,99)",
+            "directions": [
+                "S"
+            ]
+        },
+        {
+            "id": 57,
+            "text": "You are in a shoemaker's house",
+            "imgSrc": "57.gif",
+            "bgColor": "rgb(254,194,97)",
+            "directions": [
+                "N"
+            ]
+        },
+        {
+            "id": 61
+        },
+        {
+            "id": 62
+        },
+        {
+            "id": 63
+        },
+        {
+            "id": 64,
+            "text": "You are in a bleak funeral house",
+            "imgSrc": "64.gif",
+            "bgColor": "rgb(254,194,97)",
+            "directions": [
+                "E"
+            ]
+        },
+        {
+            "id": 65,
+            "text": "You are on a path leading to the wood",
+            "imgSrc": "65.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "E",
+                "N"
+            ]
+        },
+        {
+            "id": 66,
+            "text": "You are at the edge of a forest",
+            "imgSrc": "66.gif",
+            "bgColor": "rgb(167,245,63)",
+            "directions": [
+                "W",
+                "E",
+                "N"
+            ]
+        },
+        {
+            "id": 67,
+            "text": "You are in a deep forest",
+            "imgSrc": "67.gif",
+            "bgColor": "rgb(140,253,99)",
+            "directions": [
+                "W"
+            ]
+        }
+    ]
+}
