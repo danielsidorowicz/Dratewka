@@ -7,7 +7,8 @@
             "bgColor": "rgb(235,211,64)",
             "directions": [
                 "E"
-            ]
+            ],
+            "items": []
         },
         {
             "id": 12,
@@ -17,7 +18,8 @@
             "directions": [
                 "W",
                 "E"
-            ]
+            ],
+            "items": []
         },
         {
             "id": 13,
@@ -28,6 +30,11 @@
                 "W",
                 "S",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -38,6 +45,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -48,6 +60,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -58,6 +75,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -68,6 +90,11 @@
             "directions": [
                 "W",
                 "S"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -78,6 +105,11 @@
             "directions": [
                 "S",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -89,6 +121,11 @@
                 "W",
                 "S",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -101,6 +138,11 @@
                 "S",
                 "E",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -111,6 +153,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -122,6 +169,11 @@
                 "W",
                 "S",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -132,6 +184,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -142,6 +199,11 @@
             "directions": [
                 "W",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -152,6 +214,11 @@
             "directions": [
                 "N",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -162,6 +229,11 @@
             "directions": [
                 "W",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -172,6 +244,11 @@
             "directions": [
                 "N",
                 "S"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -181,6 +258,11 @@
             "bgColor": "rgb(255,189,117)",
             "directions": [
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -192,6 +274,11 @@
                 "W",
                 "S",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -201,6 +288,11 @@
             "bgColor": "rgb(255,188,102)",
             "directions": [
                 "S"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -210,6 +302,11 @@
             "bgColor": "rgb(255,188,102)",
             "directions": [
                 "S"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -219,6 +316,11 @@
             "bgColor": "rgb(255,176,141)",
             "directions": [
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -229,6 +331,11 @@
             "directions": [
                 "W",
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -239,6 +346,11 @@
             "directions": [
                 "W",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -248,6 +360,11 @@
             "bgColor": "rgb(255,190,99)",
             "directions": [
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -260,6 +377,11 @@
                 "S",
                 "E",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -271,6 +393,11 @@
                 "W",
                 "E",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -282,6 +409,11 @@
                 "W",
                 "S",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -300,6 +432,11 @@
             "bgColor": "rgb(108,181,242)",
             "directions": [
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -311,6 +448,11 @@
                 "W",
                 "S",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -320,6 +462,11 @@
             "bgColor": "rgb(255,190,99)",
             "directions": [
                 "S"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -329,6 +476,11 @@
             "bgColor": "rgb(254,194,97)",
             "directions": [
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -347,6 +499,11 @@
             "bgColor": "rgb(254,194,97)",
             "directions": [
                 "E"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -358,6 +515,11 @@
                 "W",
                 "E",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -369,6 +531,11 @@
                 "W",
                 "E",
                 "N"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         },
         {
@@ -378,6 +545,11 @@
             "bgColor": "rgb(140,253,99)",
             "directions": [
                 "W"
+            ],
+            "items": [
+                {
+                    "itemID":
+                }
             ]
         }
     ]
