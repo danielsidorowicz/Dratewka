@@ -4,68 +4,101 @@ import Location from "./src/modules/location.js";
 let LocationArray = []
 let locationId = '47' // 47 = start
 let allowedDirections = []
+
+let showGame = true
+let showGossip = false
+let showVocabulary = false
+
 const input = document.getElementById('input')
+
+function pressAnyKey() {
+    document.getElementById("gameStuff").style.display = 'flex'
+    showGame = true
+    document.getElementById("vocabulary").style.display = 'none'
+    showVocabulary = false
+    document.getElementById("gossip").style.display = 'none'
+    showGossip = false
+    document.body.removeEventListener("keypress", pressAnyKey)
+}
 
 
 input.addEventListener("keypress", function (event) {
-    let directionTransitionText = "You are going "
-    if (event.key === "Enter") {
-        let playerInput = input.value
-        if (allowedDirections.includes(playerInput)) {
-            input.disabled = true
-            let locationIdSplit = locationId.split('')
+    if (showGame) {
+        let directionTransitionText = "You are going "
+        if (event.key === "Enter") {
+            let playerInput = input.value
+            if (allowedDirections.includes(playerInput)) {
+                input.disabled = true
+                let locationIdSplit = locationId.split('')
 
-            if (playerInput == "N" || playerInput == "North" || playerInput == "n" || playerInput == "north") {
-                locationIdSplit[0]--
-                locationIdSplit[0] = locationIdSplit[0].toString()
-                locationId = locationIdSplit.join('')
-                directionTransitionText += "north..."
-                LocationArray.find((element) => {
-                    if (element.id == locationId) {
-                        // console.log(element);
-                        updateGame(element, directionTransitionText)
-                    }
-                });
-            } else if (playerInput == "S" || playerInput == "South" || playerInput == "s" || playerInput == "south") {
-                locationIdSplit[0]++
-                locationIdSplit[0] = locationIdSplit[0].toString()
-                locationId = locationIdSplit.join('')
-                directionTransitionText += "south..."
-                LocationArray.find((element) => {
-                    if (element.id == locationId) {
-                        // console.log(element);
-                        updateGame(element, directionTransitionText)
-                    }
-                });
-            } else if (playerInput == "E" || playerInput == "East" || playerInput == "e" || playerInput == "east") {
-                locationIdSplit[1]++
-                locationIdSplit[1] = locationIdSplit[1].toString()
-                locationId = locationIdSplit.join('')
-                directionTransitionText += "east..."
-                LocationArray.find((element) => {
-                    if (element.id == locationId) {
-                        // console.log(element);
-                        updateGame(element, directionTransitionText)
-                    }
-                });
-            } else if (playerInput == "W" || playerInput == "West" || playerInput == "w" || playerInput == "west") {
-                locationIdSplit[1]--
-                locationIdSplit[1] = locationIdSplit[1].toString()
-                locationId = locationIdSplit.join('')
-                directionTransitionText += "west..."
-                LocationArray.find((element) => {
-                    if (element.id == locationId) {
-                        // console.log(element);
-                        updateGame(element, directionTransitionText)
-                    }
-                });
+                if (playerInput == "N" || playerInput == "North" || playerInput == "n" || playerInput == "north") {
+                    locationIdSplit[0]--
+                    locationIdSplit[0] = locationIdSplit[0].toString()
+                    locationId = locationIdSplit.join('')
+                    directionTransitionText += "north..."
+                    LocationArray.find((element) => {
+                        if (element.id == locationId) {
+                            // console.log(element);
+                            updateGame(element, directionTransitionText)
+                        }
+                    });
+                } else if (playerInput == "S" || playerInput == "South" || playerInput == "s" || playerInput == "south") {
+                    locationIdSplit[0]++
+                    locationIdSplit[0] = locationIdSplit[0].toString()
+                    locationId = locationIdSplit.join('')
+                    directionTransitionText += "south..."
+                    LocationArray.find((element) => {
+                        if (element.id == locationId) {
+                            // console.log(element);
+                            updateGame(element, directionTransitionText)
+                        }
+                    });
+                } else if (playerInput == "E" || playerInput == "East" || playerInput == "e" || playerInput == "east") {
+                    locationIdSplit[1]++
+                    locationIdSplit[1] = locationIdSplit[1].toString()
+                    locationId = locationIdSplit.join('')
+                    directionTransitionText += "east..."
+                    LocationArray.find((element) => {
+                        if (element.id == locationId) {
+                            // console.log(element);
+                            updateGame(element, directionTransitionText)
+                        }
+                    });
+                } else if (playerInput == "W" || playerInput == "West" || playerInput == "w" || playerInput == "west") {
+                    locationIdSplit[1]--
+                    locationIdSplit[1] = locationIdSplit[1].toString()
+                    locationId = locationIdSplit.join('')
+                    directionTransitionText += "west..."
+                    LocationArray.find((element) => {
+                        if (element.id == locationId) {
+                            // console.log(element);
+                            updateGame(element, directionTransitionText)
+                        }
+                    });
+                }
+                input.value = ""
+            } else if (playerInput == "V" || playerInput == "Vocabulary" || playerInput == "v" || playerInput == "vocabulary") {
+                document.getElementById("gameStuff").style.display = 'none'
+                showGame = false
+                document.getElementById("vocabulary").style.display = 'flex'
+                showVocabulary = true
+                document.getElementById("gossip").style.display = 'none'
+                showGossip = false
+                document.body.addEventListener("keypress", pressAnyKey)
+            } else if (playerInput == "G" || playerInput == "Gossip" || playerInput == "g" || playerInput == "gossip") {
+                document.getElementById("gameStuff").style.display = 'none'
+                showGame = false
+                document.getElementById("vocabulary").style.display = 'none'
+                showVocabulary = false
+                document.getElementById("gossip").style.display = 'flex'
+                showGossip = true
+                document.body.addEventListener("keypress", pressAnyKey)
+            } else {
+                input.value = ""
+                document.getElementById('gameInputText').innerText = "You can't go that way"
             }
-            input.value = ""
-        } else {
-            input.value = ""
-            document.getElementById('gameInputText').innerText = "You can't go that way"
-        }
 
+        }
     }
 })
 
@@ -114,6 +147,7 @@ function updateGame(element, directionTransitionText) {
         input.focus()
         document.getElementById('gameInputText').innerText = "What now?"
     }, 500)
+
 }
 
 fetch("./src/data/data.json")
