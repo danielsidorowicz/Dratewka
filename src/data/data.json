@@ -31,7 +31,14 @@
                 "S",
                 "E"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 31,
+                    "displayText": "a STONE",
+                    "usageFlag": 1,
+                    "itemName": "STONE"
+                }
+            ]
         },
         {
             "id": 14,
@@ -53,7 +60,14 @@
                 "W",
                 "E"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 27,
+                    "displayText": "a BUCKET",
+                    "usageFlag": 1,
+                    "itemName": "BUCKET"
+                }
+            ]
         },
         {
             "id": 16,
@@ -75,7 +89,14 @@
                 "W",
                 "S"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 14,
+                    "displayText": "MUSHROOMS",
+                    "usageFlag": 1,
+                    "itemName": "MUSHROOMS"
+                }
+            ]
         },
         {
             "id": 21,
@@ -111,7 +132,14 @@
                 "E",
                 "N"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 10,
+                    "displayText": "a KEY",
+                    "usageFlag": 1,
+                    "itemName": "KEY"
+                }
+            ]
         },
         {
             "id": 24,
@@ -156,7 +184,14 @@
                 "W",
                 "N"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 18,
+                    "displayText": "BERRIES",
+                    "usageFlag": 1,
+                    "itemName": "BERRIES"
+                }
+            ]
         },
         {
             "id": 31,
@@ -178,7 +213,14 @@
                 "W",
                 "N"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 32,
+                    "displayText": "a FISH",
+                    "usageFlag": 1,
+                    "itemName": "FISH"
+                }
+            ]
         },
         {
             "id": 33,
@@ -273,7 +315,14 @@
             "directions": [
                 "E"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 21,
+                    "displayText": "a BAG",
+                    "usageFlag": 1,
+                    "itemName": "BAG"
+                }
+            ]
         },
         {
             "id": 45,
@@ -341,7 +390,14 @@
                 "S",
                 "N"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 33,
+                    "displayText": "a KNIFE",
+                    "usageFlag": 1,
+                    "itemName": "KNIFE"
+                }
+            ]
         },
         {
             "id": 56,
@@ -380,7 +436,14 @@
             "directions": [
                 "E"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 24,
+                    "displayText": "a SPADE",
+                    "usageFlag": 1,
+                    "itemName": "SPADE"
+                }
+            ]
         },
         {
             "id": 65,
@@ -415,6 +478,337 @@
                 "W"
             ],
             "items": []
+        }
+    ],
+    "items": [
+        {
+            "id": 10,
+            "displayText": "a KEY",
+            "usageFlag": 1,
+            "itemName": "KEY"
+        },
+        {
+            "id": 11,
+            "displayText": "an AXE",
+            "usageFlag": 1,
+            "itemName": "AXE"
+        },
+        {
+            "id": 12,
+            "displayText": "STICKS",
+            "usageFlag": 1,
+            "itemName": "STICKS"
+        },
+        {
+            "id": 13,
+            "displayText": "sheeplegs",
+            "usageFlag": 0,
+            "itemName": "sheeplegs"
+        },
+        {
+            "id": 14,
+            "displayText": "MUSHROOMS",
+            "usageFlag": 1,
+            "itemName": "MUSHROOMS"
+        },
+        {
+            "id": 15,
+            "displayText": "MONEY",
+            "usageFlag": 1,
+            "itemName": "MONEY"
+        },
+        {
+            "id": 16,
+            "displayText": "a BARREL",
+            "usageFlag": 1,
+            "itemName": "BARREL"
+        },
+        {
+            "id": 17,
+            "displayText": "a sheeptrunk",
+            "usageFlag": 0,
+            "itemName": "sheeptrunk"
+        },
+        {
+            "id": 18,
+            "displayText": "BERRIES",
+            "usageFlag": 1,
+            "itemName": "BERRIES"
+        },
+        {
+            "id": 19,
+            "displayText": "WOOL",
+            "usageFlag": 1,
+            "itemName": "WOOL"
+        },
+        {
+            "id": 20,
+            "displayText": "a sheepskin",
+            "usageFlag": 0,
+            "itemName": "sheepskin"
+        },
+        {
+            "id": 21,
+            "displayText": "a BAG",
+            "usageFlag": 1,
+            "itemName": "BAG"
+        },
+        {
+            "id": 22,
+            "displayText": "a RAG",
+            "usageFlag": 1,
+            "itemName": "RAG"
+        },
+        {
+            "id": 23,
+            "displayText": "a sheephead",
+            "usageFlag": 0,
+            "itemName": "sheephead"
+        },
+        {
+            "id": 24,
+            "displayText": "a SPADE",
+            "usageFlag": 1,
+            "itemName": "SPADE"
+        },
+        {
+            "id": 25,
+            "displayText": "SULPHUR",
+            "usageFlag": 1,
+            "itemName": "SULPHUR"
+        },
+        {
+            "id": 26,
+            "displayText": "a solid poison",
+            "usageFlag": 0,
+            "itemName": "solid poison"
+        },
+        {
+            "id": 27,
+            "displayText": "a BUCKET",
+            "usageFlag": 1,
+            "itemName": "BUCKET"
+        },
+        {
+            "id": 28,
+            "displayText": "TAR",
+            "usageFlag": 1,
+            "itemName": "TAR"
+        },
+        {
+            "id": 29,
+            "displayText": "a liquid poison",
+            "usageFlag": 0,
+            "itemName": "liquid poison"
+        },
+        {
+            "id": 30,
+            "displayText": "a dead dragon",
+            "usageFlag": 0,
+            "itemName": "dead dragon"
+        },
+        {
+            "id": 31,
+            "displayText": "a STONE",
+            "usageFlag": 1,
+            "itemName": "STONE"
+        },
+        {
+            "id": 32,
+            "displayText": "a FISH",
+            "usageFlag": 1,
+            "itemName": "FISH"
+        },
+        {
+            "id": 33,
+            "displayText": "a KNIFE",
+            "usageFlag": 1,
+            "itemName": "KNIFE"
+        },
+        {
+            "id": 34,
+            "displayText": "a DRAGONSKIN",
+            "usageFlag": 1,
+            "itemName": "DRAGONSKIN"
+        },
+        {
+            "id": 35,
+            "displayText": "a dragonskin SHOES",
+            "usageFlag": 1,
+            "itemName": "SHOES"
+        },
+        {
+            "id": 36,
+            "displayText": "a PRIZE",
+            "usageFlag": 1,
+            "itemName": "PRIZE"
+        },
+        {
+            "id": 37,
+            "displayText": "a SHEEP",
+            "usageFlag": 1,
+            "itemName": "SHEEP"
+        }
+    ],
+    "dependencies": [
+        {
+            "itemID": 10,
+            "locationID": 56,
+            "resultID": 11,
+            "message": "You opened a tool shed and took an axe",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 11,
+            "locationID": 67,
+            "resultID": 12,
+            "message": "You cut sticks for sheeplegs",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 12,
+            "locationID": 43,
+            "resultID": 13,
+            "message": "You cut sticks for sheeplegs",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 14,
+            "locationID": 34,
+            "resultID": 15,
+            "message": "The tavern owner paid you money",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 15,
+            "locationID": 37,
+            "resultID": 16,
+            "message": "The cooper sold you a new barrel",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 16,
+            "locationID": 43,
+            "resultID": 17,
+            "message": "You made a nice sheeptrunk",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 18,
+            "locationID": 36,
+            "resultID": 19,
+            "message": "The butcher gave you wool",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 19,
+            "locationID": 43,
+            "resultID": 20,
+            "message": "You prepared skin for your fake sheep",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 21,
+            "locationID": 57,
+            "resultID": 22,
+            "message": "You used your tools to make a rag",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 22,
+            "locationID": 43,
+            "resultID": 23,
+            "message": "You made a fake sheephead",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 24,
+            "locationID": 11,
+            "resultID": 25,
+            "message": [
+                "You are digging...",
+                "and digging...",
+                "That's enough sulphur for you"
+            ],
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 25,
+            "locationID": 43,
+            "resultID": 26,
+            "message": "You prepared a solid poison",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 27,
+            "locationID": 21,
+            "resultID": 28,
+            "message": "You got a bucket full of tar",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 28,
+            "locationID": 43,
+            "resultID": 29,
+            "message": "You prepared a liquid poison",
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": null,
+            "locationID": 43,
+            "resultID": 29,
+            "message": "Your fake sheep is full of poison and ready to be eaten by the dragon",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 37,
+            "locationID": 43,
+            "resultID": 30,
+            "message": [
+                "The dragon noticed your gift...",
+                "The dragon ate your sheep and died!"
+            ],
+            "important": "OK",
+            "staysAtLocation": 1
+        },
+        {
+            "itemID": 33,
+            "locationID": 43,
+            "resultID": 34,
+            "message": "You cut a piece of dragon's skin",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 34,
+            "locationID": 57,
+            "resultID": 35,
+            "message": "You used your tools to make shoes",
+            "important": "",
+            "staysAtLocation": 0
+        },
+        {
+            "itemID": 35,
+            "locationID": 41,
+            "resultID": 36,
+            "message": "The King is impressed by your shoes",
+            "important": "",
+            "staysAtLocation": 0
         }
     ]
 }

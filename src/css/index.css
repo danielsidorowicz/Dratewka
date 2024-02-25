@@ -89,8 +89,13 @@
     gap: 10px;
 }
 
+.gameInputText {
+    max-width: 50%;
+}
+
 input[type="text"]:focus {
     outline: none;
+
 }
 
 .northBlock {
@@ -137,4 +142,5 @@ input {
     all: unset;
     caret-color: white;
     color: white;
+    margin-top: auto;
 }
