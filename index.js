@@ -235,8 +235,8 @@ input.addEventListener("keypress", function (event) {
 
 let counter = 0
 
-function sleep() {
-    return new Promise((r) => setTimeout(r, ms));
+function sleep(time) {
+    return new Promise((r) => setTimeout(r, time));
 }
 
 async function displayTextArray(Text) {
