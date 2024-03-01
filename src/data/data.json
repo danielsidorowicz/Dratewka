@@ -305,7 +305,38 @@
                 "W",
                 "N"
             ],
-            "items": []
+            "items": [
+                {
+                    "id": 13,
+                    "displayText": "sheeplegs",
+                    "usageFlag": 0,
+                    "itemName": "sheeplegs"
+                },
+                {
+                    "id": 17,
+                    "displayText": "a sheeptrunk",
+                    "usageFlag": 0,
+                    "itemName": "sheeptrunk"
+                },
+                {
+                    "id": 20,
+                    "displayText": "a sheepskin",
+                    "usageFlag": 0,
+                    "itemName": "sheepskin"
+                },
+                {
+                    "id": 26,
+                    "displayText": "a solid poison",
+                    "usageFlag": 0,
+                    "itemName": "solid poison"
+                },
+                {
+                    "id": 29,
+                    "displayText": "a liquid poison",
+                    "usageFlag": 0,
+                    "itemName": "liquid poison"
+                }
+            ]
         },
         {
             "id": 44,
@@ -770,7 +801,7 @@
         {
             "itemID": null,
             "locationID": 43,
-            "resultID": 29,
+            "resultID": 37,
             "message": "Your fake sheep is full of poison and ready to be eaten by the dragon",
             "important": "",
             "staysAtLocation": 0

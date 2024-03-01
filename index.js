@@ -2,7 +2,7 @@ import Location from "./src/modules/location.js";
 
 
 let LocationArray = []
-let locationId = '11' // 47 = start
+let locationId = '43' // 47 = start
 let allowedDirections = []
 let allowedDirectionsAll = [
     "N", "North", "n", "north",
@@ -14,16 +14,17 @@ let gameItems = []
 let locationItems = []
 let carriedItem = [
     {
-        "id": 24,
-        "displayText": "a SPADE",
+        "id": 22,
+        "displayText": "a RAG",
         "usageFlag": 1,
-        "itemName": "SPADE"
+        "itemName": "RAG"
     }
 ]
 let dependencies = []
-let okCounter = 0
+let okCounter = 5
 
 let dragonKilled = false
+let checkIfSheepMade = false
 
 let showGame = true
 let showGossip = false
@@ -161,7 +162,13 @@ input.addEventListener("keypress", function (event) {
             let wantedItem = playerInputSplit[1]
             if (carriedItem[0]) {
                 if (carriedItem[0].itemName == wantedItem) {
-                    if (locationItems.length < 3) {
+                    let usageItems = 0
+                    for (let i = 0; i < locationItems.length; i++) {
+                        if (locationItems[i].usageFlag == 1) {
+                            usageItems++
+                        }
+                    }
+                    if (usageItems < 3) {
                         locationItems.push(carriedItem[0])
                         let droppingTransitionText = `You are about to drop ${carriedItem[0].displayText}`
                         carriedItem = []
@@ -201,6 +208,7 @@ input.addEventListener("keypress", function (event) {
 
                                                 if (give.important == "OK") {
                                                     okCounter++
+                                                    console.log("XDDD");
                                                 }
                                                 let usingTransitionText = depends.message
                                                 LocationArray.find((element) => {
@@ -235,21 +243,22 @@ input.addEventListener("keypress", function (event) {
 
 let counter = 0
 
-function sleep(time) {
-    return new Promise((r) => setTimeout(r, time));
-}
-
-async function displayTextArray(Text) {
+function displayTextArray(Text, element) {
     if (counter == 0) {
         document.getElementById('gameInputText').innerText = Text[counter]
         counter++;
-        displayTextArray(Text)
+        displayTextArray(Text, element)
     } else {
         setTimeout(function () {
             document.getElementById('gameInputText').innerText = Text[counter]
             counter++;
+
             if (counter < Text.length) {
-                displayTextArray(Text)
+                displayTextArray(Text, element)
+            }
+
+            if (counter == Text.length) {
+                updateGameSpecifics(element)
             }
         }, 2000)
     }
@@ -319,19 +328,44 @@ function updateGameSpecifics(element) {
         input.disabled = false
         input.focus()
         document.getElementById('gameInputText').innerText = "What now?"
-    }, 500)
+    }, 10)
 }
 
 function updateGame(element, TransitionText) {
     input.value = ""
-    if (Array.isArray(TransitionText)) {
-        counter = 0
-        displayTextArray(TransitionText).then(() => { updateGameSpecifics(element) })
-    } else {
-        document.getElementById('gameInputText').innerText = TransitionText
-        updateGameSpecifics(element)
-    }
+    console.log(checkIfSheepMade, okCounter);
+    if (okCounter == 6 && !checkIfSheepMade) {
+        console.log("wszedl do owcy");
+        checkIfSheepMade = true
+        gameItems.find((item) => {
+            if (item.id == 37) {
+                locationItems = []
+                carriedItem = []
+                carriedItem.push(item)
 
+                dependencies.find((sheep) => {
+                    if (sheep.resultID == 37) {
+                        let sheepTransitionText = sheep.message
+                        LocationArray.find((element) => {
+                            if (element.id == locationId) {
+                                updateGame(element, sheepTransitionText)
+                            }
+                        });
+                    }
+                })
+
+            }
+        })
+
+    } else {
+        if (Array.isArray(TransitionText)) {
+            counter = 0
+            displayTextArray(TransitionText, element)
+        } else {
+            document.getElementById('gameInputText').innerText = TransitionText
+            updateGameSpecifics(element)
+        }
+    }
 }
 
 fetch("./src/data/data.json")
