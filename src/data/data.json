@@ -305,38 +305,7 @@
                 "W",
                 "N"
             ],
-            "items": [
-                {
-                    "id": 13,
-                    "displayText": "sheeplegs",
-                    "usageFlag": 0,
-                    "itemName": "sheeplegs"
-                },
-                {
-                    "id": 17,
-                    "displayText": "a sheeptrunk",
-                    "usageFlag": 0,
-                    "itemName": "sheeptrunk"
-                },
-                {
-                    "id": 20,
-                    "displayText": "a sheepskin",
-                    "usageFlag": 0,
-                    "itemName": "sheepskin"
-                },
-                {
-                    "id": 26,
-                    "displayText": "a solid poison",
-                    "usageFlag": 0,
-                    "itemName": "solid poison"
-                },
-                {
-                    "id": 29,
-                    "displayText": "a liquid poison",
-                    "usageFlag": 0,
-                    "itemName": "liquid poison"
-                }
-            ]
+            "items": []
         },
         {
             "id": 44,
